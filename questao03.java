@@ -10,16 +10,21 @@ public class questao03 {
     System.out.println("---------------");
     System.out.println("Escreva outro número:");
     int num2 = ler.nextInt(); //lendo o número
-    
-    if (num1 < num2) {
-        for (int i = (num1 + 1); i < num2; i++) {
-        System.out.println("Os números entre eles são: "+i);  
-        }
-    } else {
-        for (int i = (num2 + 1); i <= (num1 - 1); i++) {
-            System.out.println("Os números entre eles são: "+i);  
-            }
+    // Desafio se o primeiro for menor
+    for (int i = num1; i <= num2; i++) {
+            System.out.println(" > "+i);
     }
+    //if (num1 < num2) {
+    //    for (int i = (num1 + 1); i < num2; i++) {
+    //    System.out.println("Os números entre eles são: "+i);  
+    //    }
+    //} else {
+    //    for (int i = (num2 + 1); i <= (num1 - 1); i++) {
+    //        System.out.println("Os números entre eles são: "+i);  
+    //        }
+    //}
+
+
     ler.close();
     }
 }

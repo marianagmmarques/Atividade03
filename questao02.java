@@ -7,13 +7,19 @@ public class questao02 {
 
     System.out.println("Escreva um mensagem:");
     String msg = ler.nextLine(); //lendo a mensagem
-    System.out.println("---------------");
-    System.out.println("Escreva um número:");
+    System.out.println("Digite quantas vezes a mensagem se repetirá:");
     int num = ler.nextInt(); //lendo o número
+    System.out.println("---------------");
+    int i = 1;
 
-    for (int i = 1; i <= num; i++) {
-            System.out.println(msg); // Repetindo a quantidade desejada
-        }
+    while (i <= num) {
+        i++;
+        System.out.println(msg);
+    }
+
+    //for (int i = 1; i <= num; i++) {
+    //        System.out.println(msg); // Repetindo a quantidade desejada
+    //    }
 
     ler.close();
     }

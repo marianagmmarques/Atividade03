@@ -13,6 +13,7 @@ public class questao01 {
 
     for (int i = 1; i <= 10; i++) {
         System.out.println(num+" + "+i+" = "+(num+i)); //Adicionando número digitado a frente depois número do laço, depois o cálculo soma
+        //System.out.printf("%s x %s = %s",num,i,i*num); Fazendo de forma diferente
     }
 
     System.out.println("---------------");
@@ -29,9 +30,9 @@ public class questao01 {
 
     System.out.println("---------------");
 
-    for (int i = 1; i <= 10; i++) {
-        System.out.println(num+" / "+i+" = "+(num/i)); //Adicionando número digitado a frente depois número do laço, depois o cálculo divisão
-    }
+    //for (int i = 1; i <= 10; i++) {
+    //    System.out.println(num+" / "+i+" = "+(num/i)); //Adicionando número digitado a frente depois número do laço, depois o cálculo divisão
+    //}
 
     ler.close();
     }
