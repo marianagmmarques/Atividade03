@@ -31,6 +31,9 @@ public class questao06 {
     System.out.println("Menor = "+menor);
     System.out.println("Soma = "+soma);
     System.out.println("Média = "+ (soma / 5));
+    System.out.println("Resto = "+ (soma % 5));
+    float media = soma / 5f;
+    System.out.printf("Média fracionada = %.2f", media);
 
     //int num, maior = 0, menor = 100, media = 0, soma = 0;
     //int contMaior = 0, contMenor = 0, i;
